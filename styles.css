@@ -1,0 +1,94 @@
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-1{
+    width: 100%;
+}
+div.col-1-3{
+    width: 33%;
+}
+div.col-1-6{
+    width: 16%;
+}
+
+html{
+    background-color: #FFFFFF;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #BEEAD2;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    color: #987BB2;
+}
+
+input{ 
+    height: 20px;
+    width: 40px;
+    border: #987BB2 dotted 2px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #BEEAD2;
+}
+
+p#output{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-left: 450px;
+}
+
+form{
+    text-align: center;
+    width: 1050px;
+    height: 700px;
+    border: #563870 solid 2px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+    background-color: #D2D7DF;
+    box-shadow: #BEEAD2 0px 0px 25px;
+}
+
+div#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+button{
+    margin-top: 20px;
+    font-size: 10px;
+    width: 100px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: #563870 3px solid;
+    background-color: #987BB2;
+}
+
+/*
+#563870
+#987BB2
+#BEEAD2
+#D2D7DF
+#FFFFFF
+*/

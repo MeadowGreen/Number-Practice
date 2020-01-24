@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="numbers.js" defer ></script>
+</head>
+<body>
+    <header>
+        <h1> Number Practice Site</h1>
+    </header>
+    <form>
+        <div class="row">
+            <div class="col-1-6">
+               <h2>First Number: </h2><br/>
+                <input type="text" id="first" required > <br/>
+            </div>
+            <div class="col-1-6">
+                <h2>Second Number:</h2> <br/>
+                <input type="text" id="second" required > <br/>
+            </div>
+            <div class="col-1-6">
+                <h2>Third Number:</h2> <br/>
+                <input type="text" id="third" required > <br/>
+            </div>
+            <div class="col-1-6">
+                <h2>Fourth Number:</h2> <br/>
+                <input type="text" id="fourth" required > <br/>
+            </div>
+            <div class="col-1-6">
+                <h2>Fifth Number: </h2><br/>
+                <input type="text" id="fifth" required > <br/>
+            </div>
+            <div class="col-1-6">
+                <h2>Sixth Number: </h2><br/>
+                <input type="text" id="sixth" required > <br/>
+                <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1">
+                <p id="output"></p>
+            </div>
+        </div>
+        <div class="row" id="button">
+            <div class="col-1-3">
+                <button name="submit" type="button" onclick="order()"> Orders least to greatest </button><br/>
+                <button name="submit" type="button" onclick="middle()"> Middle </button><br/>
+                <button name="submit" type="button" onclick="largest()"> Largest number </button><br/>
+            </div>
+            <div class="col-1-3">
+                <button name="submit" type="button" onclick="smallest()"> Smallest number </button><br/>
+                <button name="submit" type="button" onclick="mean()"> Mean </button><br/>
+                <button name="submit" type="button" onclick="mode()"> Mode </button><br/>
+            </div>
+            <div class="col-1-3">
+                <button name="submit" type="button" onclick="range()"> Range </button><br/>
+                <button name="submit" type="button" onclick="duplicate()"> Duplicate </button><br/>
+                <button name="submit" type="button" onclick="unique()"> Unique </button><br/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
